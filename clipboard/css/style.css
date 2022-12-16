@@ -630,10 +630,6 @@ h5 {
   padding-top: 4rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -642,10 +638,6 @@ h5 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
 }
 
 .text-grayishBlue {
