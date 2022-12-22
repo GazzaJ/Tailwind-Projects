@@ -1,8 +1,19 @@
+const btn = document.getElementById('menu-btn');
+const menu = document.getElementById('menu');
+
 const input = document.getElementById('link-input');
 const linkForm = document.getElementById('link-form');
 const msg = document.getElementById('warning');
 
+btn.addEventListener('click', navToggle)
 linkForm.addEventListener('submit', formSubmit)
+
+// Mobile menu Toggle
+function navToggle() {
+    btn.classList.toggle('open')
+    menu.classList.toggle('flex')
+    menu.classList.toggle('hidden')
+}
 
 // Validate a URL
 function validURL(str) {
